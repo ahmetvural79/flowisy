@@ -16,14 +16,14 @@ Our goal is to help other developers avoid the common pitfalls of building fragm
 ---
 
 ## Overview  
-Flowisy is an open-source Python library that unifies **data ingestion**, **processing**, and **AI optimization** across applications, databases, and documents. Built for developers tired of stitching together fragmented pipelines, it combines the strengths of:  
+Flowisy is an open-source Python library that unifies **data ingestion**, **processing**, and **AI optimization** across applications, databases, and documents. Built for developers tired of stitching together fragmented pipelines, it combines the strengths of diffrent tools. 
  
-Transforms messy JSON, XML, or PDFs into **AI-ready structured data** with one line of code.  
+Also it transforms messy JSON, XML, or PDFs into **AI-ready structured data** with one line of code.  
 
 ## Core Components
 
 ### 1. Data Connector Module (`flowisy.connect`)
-Inspired by Airweave's connectivity features:
+
 - Universal connectors for applications, databases, URLs, and APIs
 - Support for multiple authentication methods
 - MCP (Multi-Cloud Platform) integration
@@ -31,7 +31,7 @@ Inspired by Airweave's connectivity features:
 - Standardized data extraction from various sources
 
 ### 2. Document Processing Module (`flowisy.document`)
-Based on Percival and Chonkie's capabilities:
+
 - Intelligent document parsing (PDFs, spreadsheets, images)
 - Document chunking for optimal AI processing
 - Data structure preservation during chunking
@@ -39,7 +39,7 @@ Based on Percival and Chonkie's capabilities:
 - Purchase order and price list specialized processing
 
 ### 3. Knowledge Engine Module (`flowisy.knowledge`)
-Drawing from Morphik's knowledge graph capabilities:
+
 - Automated knowledge graph construction
 - Entity and relationship extraction
 - Multimodal data ingestion (text, images, audio)
